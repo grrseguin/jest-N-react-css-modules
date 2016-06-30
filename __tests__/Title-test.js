@@ -1,3 +1,4 @@
+jest.unmock('react-css-modules');
 jest.unmock('../src/components/Title');
 
 import React from 'react';
