@@ -6,9 +6,14 @@ import styles from './Title.css';
 var Title = React.createClass({
   render: function() {
     return (
-      <h1 className={styles.title}>
-        Hello, world! I am a title.
-      </h1>
+      <div>
+        <h1 className={styles.title}>
+          Hello, world! I am a title.
+        </h1>
+        <h2 styleName='title'>
+          Hello, world! I am a title.
+        </h2>
+      </div>
     );
   }
 });
