@@ -8,7 +8,7 @@ import Title from '../src/components/Title';
 
 describe('Title', () => {
 
-  it('changes the text after click', () => {
+  it('should have a text', () => {
     // Render a checkbox with label in the document
     const title = TestUtils.renderIntoDocument(
       <Title>Hello, world! I am a title.</Title>

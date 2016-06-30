@@ -17,6 +17,7 @@
     "babel-preset-react": "^6.11.1",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "identity-obj-proxy": "^2.0.0",
     "jest-cli": "^13.0.0",
     "react-addons-test-utils": "^15.1.0",
     "style-loader": "^0.13.1",
@@ -28,6 +29,9 @@
     "start": "webpack-dev-server"
   },
   "jest": {
+    "moduleNameMapper": {
+      "^.+\\.css$": "../../__mocks__/style.js"
+    },
     "unmockedModulePathPatterns": [
       "../node_modules/react/",
       "../node_modules/react-dom/",
